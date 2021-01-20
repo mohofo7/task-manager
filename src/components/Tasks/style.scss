@@ -1,0 +1,29 @@
+@import "src/theme/main";
+
+.tasks {
+  flex: 1;
+  margin-top: 2rem;
+  border-radius: 16px 16px 0 0;
+  background-color: $primary;
+
+  &__title {
+    margin: 0;
+    padding: 1rem 0;
+    color: white;
+    font-size: 1rem;
+  }
+
+  &__wrapper {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-radius: 16px 16px 0 0;
+    background-color: $secondary;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(200px, auto);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    justify-items: stretch;
+    align-items: stretch;
+  }
+}

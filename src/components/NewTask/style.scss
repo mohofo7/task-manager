@@ -1,0 +1,9 @@
+@import "src/theme/main";
+
+.new-task {
+  & &__submit {
+    margin-top: 1rem;
+    background-color: $primary;
+    color: white;
+  }
+}

@@ -1,0 +1,13 @@
+@import "src/theme/main";
+
+.header {
+  background-color: $primary;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  &__title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+  }
+}
